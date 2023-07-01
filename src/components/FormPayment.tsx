@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from 'react-router-dom';
 
 const FormPayment = () => {
     const [state, SetState] = useState(true)
@@ -21,7 +22,7 @@ const FormPayment = () => {
 
   return (
     <div>
-        <form action="/Code" method="Post" className="formPayment">
+        <form className="formPayment">
             <br />
             <input 
                 type="text" 
@@ -36,7 +37,7 @@ const FormPayment = () => {
                 placeholder="Enter your card number" 
                 onChange={c => verification(c.target.value)} 
             /><br />
-            <button disabled={state}>Next</button>
+           <Link to={'/Code'}><button disabled={state}>Next</button></Link>
         </form>
     </div>
   )
