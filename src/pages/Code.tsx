@@ -1,12 +1,9 @@
-import React, { FC, useEffect, useRef, useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import { Link } from "react-router-dom"
 import '../components/Code.css'
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
-interface Props {}
-
 let currentOTPIndex = 0
-const Code: FC <Props> = (): JSX.Element => {
+const Code = () => {
   const [otp, setOtp] = useState<string[]>(new Array(4).fill(''))
   const [activeOTPIndex, setActiveOTPIndex] = useState<number>(0)
   const [confirmeCode, setConfirmeCode] = useState(true)
