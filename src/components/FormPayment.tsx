@@ -21,7 +21,7 @@ const FormPayment = () => {
 
   return (
     <div>
-        <form action="/Code" className="formPayment">
+        <form action="/Code" method="Post" className="formPayment">
             <br />
             <input 
                 type="text" 
