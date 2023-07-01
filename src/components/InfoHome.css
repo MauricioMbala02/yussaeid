@@ -1,0 +1,106 @@
+.categories {
+    position: relative;
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.categories .container-categories {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.categories .container-categories .photo-categories {
+    width: 68px;
+    height: 68px;
+    border-radius: 20px;
+    padding: 22px;
+    gap: 10px;
+    background-color: #FF617D12;
+}
+
+.categories .container-categories .desc-categories p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #9D9D9D;
+    margin-top: 8%;
+}
+
+.donation {
+    position: relative;
+    width: 100%;
+    height: 34vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donation .donate {
+    background-color: #fff;
+    width: 332px;
+    height: 258px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px 0 #0000004d;
+}
+
+.donation .donate h3 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25.5px;
+    text-align: center;
+}
+
+.donation .donate .donate-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.donation .donate .donate-button .btn-donate {
+    width: 84px;
+    height: 29px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background: linear-gradient(180deg, #FF617D 0%, rgba(255, 97, 125, 0.7) 100%);
+}
+
+.donation .donate .donate-button .btn-donate a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.donation .donate .donate-button .desc-donate {
+    display: flex;
+    align-items: center;
+}
+
+.donation .donate .donate-button .desc-donate p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22.5px;
+    margin-left: 5px;
+}
+
+.foudation {
+    position: relative;
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.foudation img {
+    width: 333px;
+    height: 332px;
+    border-radius: 20px;
+    margin-top: 24%;
+    object-fit: contain;
+}

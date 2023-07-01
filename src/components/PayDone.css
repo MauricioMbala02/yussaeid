@@ -1,0 +1,69 @@
+.PayDone {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.PayDone .like img {
+    width: 250px;
+    transform: rotateY(180deg);
+}
+
+.PayDone .desc-PayDone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 18px;
+}
+
+.PayDone .desc-PayDone h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #3E5481;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 220px;
+}
+
+.PayDone .desc-PayDone p {
+    width: 283px;
+    height: 50px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #2E3E5C;
+    margin-top: 8px;
+}
+
+.PayDone .desc-PayDone button{
+    border: none;
+    width: 231px;
+    height: 56px;
+    padding: 19px 32px 19px 32px;
+    border-radius: 32px;
+    gap: 10px;
+    background: #FF617D;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.007em;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    margin-top: 16px;
+}

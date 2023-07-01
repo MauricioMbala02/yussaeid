@@ -1,0 +1,113 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-modal {
+    background-color: #fff;
+    width: 360px;
+    height: 280px;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 12px #00000080;
+}
+
+.content-modal h2 {
+    color: #666;
+}
+
+.content-modal input {
+    border: 1px solid #D0DBEA;
+    width: 327px;
+    height: 56px;
+    border-radius: 20px;
+    padding: 20px;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.007em;
+    text-align: center;
+}
+
+.content-modal input:focus {
+    border: 2px solid #FF617D;
+    width: 327px;
+    height: 56px;
+    border-radius: 20px;
+    padding: 20px;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.007em;
+    text-align: center;
+    transition: 0.5s ease linear;
+}
+
+.content-modal input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.007em;
+    text-align: center;
+}
+
+.content-modal .cancel {
+    width: 156px;
+    height: 56px;
+    border-radius: 20px;
+    padding: 19px 32px 19px 32px;
+    gap: 10;
+    background-color: #F4F5F7;
+    color: #2E3E5C;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18.15px;
+    letter-spacing: 0.7%;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.content-modal .done {
+    width: 156px;
+    height: 56px;
+    border-radius: 20px;
+    padding: 19px 32px 19px 32px;
+    gap: 10;
+    background-color: #FF617D;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18.15px;
+    letter-spacing: 0.7%;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+.content-modal .done:disabled {
+    background-color: #D0DBEA;
+}
+
+.spin-button-none::-webkit-outer-spin-button,
+.spin-button-none::-webkit-inner-spin-button
+{
+    appearance: none;
+}

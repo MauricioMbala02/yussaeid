@@ -1,0 +1,116 @@
+.spin-button-none::-webkit-outer-spin-button,
+.spin-button-none::-webkit-inner-spin-button
+{
+    appearance: none;
+}
+
+.code-title {
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.code-title h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #3E5481;
+}
+
+.code-title p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #9FA5C0;
+}
+
+.confirme-code {
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+}
+
+.confirme-code input{
+    width: 72px;
+    height: 72px;
+    margin: 8px;
+    border-radius: 20px;
+    border: 1px solid #D0DBEA;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0.007em;
+    text-align: center;
+    color: #3E5481;
+}
+
+.confirme-code input::placeholder {
+    color: #3E5481;
+}
+
+.confirme-code input:focus {
+    border: 2px solid #FF617D;
+}
+
+.btns-confirme-code {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns-confirme-code .next {
+    width: 327px;
+    height: 56px;
+    padding: 19px 32px 19px 32px;
+    border-radius: 32px;
+    gap: 10px;
+    background-color: #FF617D
+    ;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.007em;
+    text-align: center;
+}
+
+.btns-confirme-code .next:disabled {
+    background-color: #D0DBEA;
+}
+
+.btns-confirme-code .send {
+    width: 327px;
+    height: 56px;
+    top: 360px;
+    left: 22px;
+    padding: 19px 32px 19px 32px;
+    border-radius: 32px;
+    border: 2px;
+    gap: 10px;
+    border: 2px solid #D0DBEA;
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.007em;
+    text-align: center;
+    color: #9FA5C0;
+}

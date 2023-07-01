@@ -1,0 +1,96 @@
+.headerDetails {
+    width: 100%;
+    height: 48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerDetails .PhotoDetails {
+    width: 369px;
+    height: 365px;
+    background-image: url('../assets/unsplash_GVg-x4MiriM (1).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.headerDetails .nav {
+    position: absolute;
+    top: 6%;
+    width: 80%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc-Details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc-Details h1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-left: 12%;
+}
+
+.desc-Details .sub {
+    display: flex;
+    margin-left: 11%;
+    margin-top: 1%;
+}
+
+.desc-Details .sub h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-left: 8px;
+}
+
+.desc-Details p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #9D9D9D;
+    line-height: 22.5px;
+    margin-left: 11%;
+    margin-top: 2%;
+    width: 77%;
+}
+
+.desc-Details span {
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+    line-height: 22.5px;
+    margin-left: 11%;
+    margin-top: 2%;
+}
+
+.full-donate {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.full-donate .donated p,
+.full-donate .totalDonation span 
+{
+    color: #9D9D9D;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.5px;
+}
+
+.full-donate .totalDonation p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}

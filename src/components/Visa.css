@@ -1,0 +1,163 @@
+.cancel-Payment {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cancel-Payment a {
+    margin-left: 8%;
+}
+
+.cancel-Payment .cancel {
+    color: #FF6464;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+}
+
+.cancel-Payment .missing {
+    margin-right: 8%;
+    color: #3E5481;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.cancel-Payment .missing span {
+    color: #9FA5C0;
+}
+
+.desc-card {
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc-card .visa,
+.desc-card .mastercard 
+{
+    width: 80px;
+}
+
+.desc-card .paypal {
+    width: 40px;
+}
+
+.desc-card .card-visa {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    margin-top: -8px;
+    color: #3E5481;
+}
+
+.desc-card .card-mastercard {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    color: #3E5481;
+}
+
+
+.desc-card p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    margin-top: 12px;
+    color: #9FA5C0;
+}
+
+.formPayment {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formPayment input {
+    border: 1px solid #D0DBEA;
+    width: 327px;
+    height: 56px;
+    border-radius: 32px;
+    padding: 20px;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.007em;
+    text-align: left;
+}
+
+.formPayment input:focus {
+    border: 2px solid #FF617D;
+    width: 327px;
+    height: 56px;
+    border-radius: 32px;
+    padding: 20px;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.007em;
+    text-align: left;
+    transition: 0.5s ease linear;
+}
+
+.formPayment input::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.007em;
+    text-align: left;
+}
+
+.spin-button-none::-webkit-outer-spin-button,
+.spin-button-none::-webkit-inner-spin-button
+{
+    appearance: none;
+}
+
+
+.formPayment button {
+    width: 327px;
+    height: 56px;
+    top: 410px;
+    left: 24px;
+    padding: 19px 32px 19px 32px;
+    border-radius: 32px;
+    gap: 10px;
+    background-color: #FF617D;
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.007em;
+    text-align: center;
+    color: #fff;
+}
+
+.formPayment button:disabled {
+    background-color: #D0DBEA;
+}
