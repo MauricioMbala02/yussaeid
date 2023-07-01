@@ -6,7 +6,7 @@ import '../components/Code.css'
 interface Props {}
 
 let currentOTPIndex = 0
-const Code: FC <Props> = (props): JSX.Element => {
+const Code: FC <Props> = (): JSX.Element => {
   const [otp, setOtp] = useState<string[]>(new Array(4).fill(''))
   const [activeOTPIndex, setActiveOTPIndex] = useState<number>(0)
   const [confirmeCode, setConfirmeCode] = useState(true)
